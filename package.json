@@ -15,9 +15,7 @@
   "scripts": {
     "test": "mocha tests --recursive --harmony"
   },
-  "dependencies": {
-    "anymatch": "^3.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": ">=4.18.2",
     "mocha": "^5.2.0",
