@@ -16,6 +16,9 @@ module.exports = {
         {
             code: 'import(/* webpackChunkName: "someModule" */ "/a/b/c.js")', 
         },
+        {
+            code: 'import(/* webpackChunkName: "someModule" */ /* webpackPreload: true */ "/a/b/c.js")', 
+        },
     ],
     invalid: [
         {
@@ -29,9 +32,14 @@ module.exports = {
             output: 'import(/* webpackChunkName: "someModule" */ "/a/b/c.js")',
         },
         {
-            code: 'import(/* webpackChunkName: "someModule" **/"/a/b/c.js")', 
+            code: 'import(/* webpackChunkName: "someModule" **/ "/a/b/c.js")', 
             errors,
-            output: 'import(/* webpackChunkName: "someModule" */"/a/b/c.js")',
+            output: 'import(/* webpackChunkName: "someModule" */ "/a/b/c.js")',
+        },
+        {
+            code: 'import(/* webpackChunkName: "someModule" **/ /* webpackPreload: true */ "/a/b/c.js")', 
+            errors,
+            output: 'import(/* webpackChunkName: "someModule" */ /* webpackPreload: true */ "/a/b/c.js")',
         },
     ]
 };
