@@ -10,3 +10,4 @@ develop.md
 ./test.js
 .gitattributes
 .gitignore
+package-lock.json
