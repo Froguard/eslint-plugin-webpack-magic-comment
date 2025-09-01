@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-webpack-magic-comment",
+  "version": "0.0.1-alpha",
+  "description": "check webpack magic comment",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "webpack",
+    "magic-comment",
+    "webpack-magic-comment"
+  ],
+  "author": "froguard",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive --harmony"
+  },
+  "dependencies": {
+    "anymatch": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": ">=4.18.2",
+    "mocha": "^5.2.0",
+    "requireindex": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/Froguard/eslint-plugin-webpack-magic-comment",
+  "license": "MIT"
+}
