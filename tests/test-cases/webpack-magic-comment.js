@@ -28,10 +28,10 @@ module.exports = {
             errors,
             output: 'import(/* webpackChunkName: "someModule" */ "/a/b/c.js")',
         },
-        // {
-        //     code: 'import(/* webpackChunkName: "someModule" **/"/a/b/c.js")', 
-        //     errors,
-        //     output: 'import(/* webpackChunkName: "someModule" */"/a/b/c.js")',
-        // },
+        {
+            code: 'import(/* webpackChunkName: "someModule" **/"/a/b/c.js")', 
+            errors,
+            output: 'import(/* webpackChunkName: "someModule" */"/a/b/c.js")',
+        },
     ]
 };
