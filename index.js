@@ -1,5 +1,5 @@
 /**
- * @fileoverview limit import source from some special folder in configuration
+ * @fileoverview 检查Webpack魔法注释, eg: /* 写成 /** * / 的情况
  * @author froguard
  */
 "use strict";
