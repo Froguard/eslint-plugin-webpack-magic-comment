@@ -7,7 +7,8 @@
 //------------------------------------------------------------------------------
 
 // eslint.RuleTester is string-compare ,which via error.message, so you must keep same value between errors and errMsg
-const errMsg = 'Webpack魔法注释应使用 /* */ 而不是 /** */ 或 /*** */，否则会导致编译警告: "Unexpected token"';
+const { meta } = require('../../lib/rules/webpack-magic-comment')
+const errMsg = meta.messages.incorrectComment;
 const errors = [{ message: errMsg}];
 
 //

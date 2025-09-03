@@ -18,5 +18,5 @@ let webpackMagicComment = require('./lib/rules/webpack-magic-comment');
 let rules = {};
 
 module.exports.rules = Object.assign(rules, {
-    "webpack-magic-comment": webpackMagicComment
+    "comment": webpackMagicComment
 });
