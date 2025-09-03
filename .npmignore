@@ -8,6 +8,7 @@ webpack.config.js
 develop.md
 .travis.yml
 ./test.js
+/tests
 .gitattributes
 .gitignore
 package-lock.json
