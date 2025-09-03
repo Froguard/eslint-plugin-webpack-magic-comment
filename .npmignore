@@ -11,4 +11,5 @@ develop.md
 /tests
 .gitattributes
 .gitignore
+.gitkeep
 package-lock.json

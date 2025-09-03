@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-webpack-magic-comment",
-  "version": "0.0.1-gamma",
+  "version": "0.0.1-delta",
   "description": "check webpack magic comment",
   "keywords": [
     "eslint",
