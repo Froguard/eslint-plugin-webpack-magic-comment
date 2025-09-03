@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-let webpackMagicComment = require('./lib/rules/webpack-magic-comment');
+let webpackMagicComment = require('./lib/rules/comment');
 
 
 //------------------------------------------------------------------------------
