@@ -19,6 +19,7 @@ coverage/
 .gitattributes
 .gitignore
 .gitkeep
+.github/
 
 
 # ai
