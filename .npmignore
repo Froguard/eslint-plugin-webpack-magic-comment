@@ -1,15 +1,28 @@
-example/img/
-# test/
+# dev
 .idea/
-node_modules/
-*.log
-coverage/
+.vscode/
 webpack.config.js
 develop.md
 .travis.yml
+
+# build
+node_modules/
+package-lock.json
+*.log
+
+# test
 ./test.js
-/tests
+tests/
+coverage/
+
+# git cfg
 .gitattributes
 .gitignore
 .gitkeep
-package-lock.json
+
+
+# ai
+.agent/
+.cursor*/
+AGENTS.md
+CLAUDE.md
