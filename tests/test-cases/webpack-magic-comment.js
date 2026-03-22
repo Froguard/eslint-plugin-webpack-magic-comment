@@ -7,7 +7,7 @@
 //------------------------------------------------------------------------------
 
 // eslint.RuleTester is string-compare ,which via error.message, so you must keep same value between errors and errMsg
-const { meta } = require('../../lib/rules/webpack-magic-comment')
+const { meta } = require('../../lib/rules/comment')
 const errMsg = meta.messages.incorrectComment;
 const errors = [{ message: errMsg}];
 
