@@ -3,7 +3,7 @@
  * @author froguard
  */
 //------------------------------------------------------------------------------
-// Test Cases
+// Test Cases For lib/rules/comment.js
 //------------------------------------------------------------------------------
 
 // eslint.RuleTester is string-compare ,which via error.message, so you must keep same value between errors and errMsg

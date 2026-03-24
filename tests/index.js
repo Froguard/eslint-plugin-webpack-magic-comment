@@ -23,7 +23,7 @@ Object.keys(testCases).forEach((k) => {
     let tc = testCases[k];
     let rule = rules[k];
     if (!rule) {
-        let err = `The test-case '${k}.js' is not found the matched rule (rules['${k}'] is ${rule})`;
+        let err = `The test-case './tests/test-cases/${k}.js' is not found the matched rule (rules['${k}'] is ${rule})`;
         console.warn(err);
         throw new Error(err);
     }
