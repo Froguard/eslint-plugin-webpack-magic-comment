@@ -18,7 +18,7 @@
   │     └ comment.js          # 规则文件
   ├ package.json              # 项目信息
   └ tests /                   # 存放测试用例的文件夹
-     ├ index.js
+     ├ index.js               # 测试入口文件（尽量不动这个，一般不用更改）
      └ test-cases /           # 存放测试用例的文件夹
         └ comment.js          # 测试用例
 ```
