@@ -27,3 +27,5 @@ coverage/
 .cursor*/
 AGENTS.md
 CLAUDE.md
+.agentsignore
+.claudeignore
