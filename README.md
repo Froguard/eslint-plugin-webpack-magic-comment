@@ -136,5 +136,6 @@ This rule provides auto-fix functionality that will automatically convert incorr
 - `/** comment */` → `/* comment */`
 - `/*** comment */` → `/* comment */`
 - `/** comment ***/` → `/* comment */`
+- `/* comment */ import(xxx)` → `import(/* comment */xxx)`
 
 > Created with ESLint rule generator tools.
