@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(claude-hud --help)",
+      "Bash(brew install:*)",
+      "Bash(jq --version)",
+      "Bash(claude-hud:*)"
+    ]
+  }
+}
