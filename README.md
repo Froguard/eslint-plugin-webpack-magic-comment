@@ -44,7 +44,7 @@ module.exports = {
 };
 ```
 
-This rule will check for incorrect Webpack magic comment formats in dynamic imports, specifically detecting when `/** */` or `/*** */` are used instead of the correct `/* */` format.
+This rule will check for incorrect Webpack magic comment formats in dynamic imports, specifically detecting when `/** */` or `/*** */` are used instead of the correct `/* */` format, or when magic comments are placed outside the `import()` parentheses.
 
 ### Valid Examples
 
