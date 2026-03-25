@@ -105,11 +105,20 @@ webpack-magic-comment
       ✓ import(/* webpackPrefetch: true */ './module');
       ✓ import(/* webpackPreload: true */ './module');
       ✓ import(/* webpackMode: "lazy" */ './module');
+      ✓ /* webpackChunkName: "someModule" */ console.log("hello"); import("/a/b/c.js")
+      ✓ /* just a normal comment */ import("/a/b/c.js")
+      ✓ /*
+         * some description
+         */ import("/a/b/c.js")
     invalid
       ✓ import(/** webpackChunkName: "my-chunk" */ './module');
       ✓ import(/** webpackPrefetch: true */ './module');
       ✓ import(/*** webpackPreload: true ***/ './module');
       ✓ import(/** webpackMode: "lazy" */ './module');
+      ✓ /* webpackChunkName: "someModule" */ import("/a/b/c.js")
+      ✓ /* webpackChunkName: "someModule" */
+        import("/a/b/c.js")
+      ✓ /** webpackChunkName: "someModule" */ import("/a/b/c.js")
 ```
 
 ### Supported Magic Comments
