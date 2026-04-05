@@ -1,0 +1,1 @@
+../../../.agents/skills/create-new-eslint-plugin-rule/SKILL.md
