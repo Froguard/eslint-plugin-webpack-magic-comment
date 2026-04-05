@@ -24,6 +24,7 @@ coverage/
 
 # ai
 .agents/
+.claude/
 .cursor*/
 AGENTS.md
 CLAUDE.md
