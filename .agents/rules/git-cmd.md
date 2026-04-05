@@ -4,4 +4,5 @@
 
 - commit message 格式为：`[type]: [subject]`
   - eg: `feat: 添加xxx新功能`
+  - eg: `docs(README): 增加 xxx 说明`
 - commit message 内容为简体中文描述
