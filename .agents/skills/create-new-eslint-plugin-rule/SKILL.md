@@ -1,7 +1,7 @@
 ---
 name: create-new-eslint-plugin-rule
 description: "创建新的 ESLint 插件规则"
-Overview: "创建新的 ESLint 插件规则，包括规则文件创建、测试用例编写和规则注册。提供完整的代码模板和最佳实践。"
+overview: "创建新的 ESLint 插件规则，包括规则文件创建、测试用例编写和规则注册。提供完整的代码模板和最佳实践。"
 keywords: "创建 ESLint 规则, new eslint rule, add rule"
 ---
 
